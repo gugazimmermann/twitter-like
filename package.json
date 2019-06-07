@@ -1,11 +1,13 @@
 {
-  "name": "chirper",
+  "name": "twitterlike",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1"
+    "react-redux": "^7.0.3",
+    "react-scripts": "1.1.1",
+    "redux": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -13,9 +15,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/udacity/reactnd-chirper-app.git"
+    "url": "https://github.com/gugazimmermann/twitter-like.git"
   }
 }
